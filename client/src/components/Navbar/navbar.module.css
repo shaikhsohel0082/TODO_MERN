@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 2rem;
+    background-color: rgb(134, 1, 112);
+    padding: 10px;
+    font-weight: bold;
+
+
+}
+
+@media screen and (max-width: 500px) {
+    .main {
+        font-size: 1.5rem;
+    }
+
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}

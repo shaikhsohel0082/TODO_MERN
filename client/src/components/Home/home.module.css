@@ -1,0 +1,18 @@
+.h1 {
+    color:aliceblue;
+    font-size: 3rem;
+    font-weight: bold;
+    position: absolute;
+    top: 35%;
+    left:25%;
+    animation: fadeIn 2s ease-in infinite;
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
