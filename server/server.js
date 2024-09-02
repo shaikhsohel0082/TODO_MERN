@@ -19,7 +19,7 @@ mongoose.connect(process.env.MONGODB_URI, {
 .catch(err => console.error('MongoDB connection error:', err));
 
 // Routes
-app.use('/api/todos', require('./routes/todo'));
+app.use('/api/todos', require('./src/routes/todo'));
 app.get('/',(req,res)=>{
     res.send("welcome to Backend Todo server.")
 })
